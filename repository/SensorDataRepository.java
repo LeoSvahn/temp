@@ -6,5 +6,4 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SensorDataRepository extends JpaRepository<SensorData, Long> {
-    // Här kan du lägga till egna metoder om du behöver, annars räcker de inbyggda metoderna som save, findAll etc.
 }
